@@ -1,16 +1,49 @@
-# world_time
+# World-time-
+World Time App 🌍⏰
 
-A new Flutter project.
+A Flutter-based mobile application that provides the current time for any location worldwide by retrieving data from the World Time API. This app is ideal for travelers, remote workers, and anyone curious about global time zones.
 
-## Getting Started
+**Features**
+Real-time World Time: Displays the current time for any selected location.
 
-This project is a starting point for a Flutter application.
+Time Zone Support: Browse and select from various time zones globally.
 
-A few resources to get you started if this is your first Flutter project:
+User-Friendly Interface: A simple and intuitive design for easy use.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Dynamic Backgrounds: Changes the UI based on day or night for the selected location.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**How It Works**
+
+Fetch Data: The app fetches real-time data from the World Time API.
+
+Process Time Zone: Parses the time and adjusts for the selected time zone.
+
+Display Time: Updates the UI with the current time and a dynamic background based on the time of day.
+
+**Installation**
+
+**Clone the repository**: git clone https://github.com/Miki-b/world-tim.git
+
+**Navigate to the project directory**: cd world-time-app
+
+**Install dependencies**: flutter pub get
+
+**Run the app**: flutter run
+
+**Screenshots**
+
+
+![image](https://github.com/user-attachments/assets/beba8ec6-61a8-47fa-96a2-4dc41acf1b05)
+
+![image](https://github.com/user-attachments/assets/3c29b94b-b07e-49a2-b92e-88e04a8ad03e)
+
+
+
+
+
+
+API Reference
+
+This app uses the World Time API to retrieve accurate time data.
+
+Base URL: http://worldtimeapi.org/api/timezone
