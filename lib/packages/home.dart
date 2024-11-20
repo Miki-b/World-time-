@@ -16,7 +16,7 @@ class _homeState extends State<home> {
         ? data
         : (ModalRoute.of(context)?.settings.arguments as Map? ?? {});
     print(data);
-    String bgImage = data['isday'] ? 'day.jpeg' : 'night.jpeg';
+    String bgImage = data['isday' ] ? 'day.jpeg' : 'night.jpeg';
 
     return Scaffold(
       backgroundColor: data['isday'] ? Colors.blue[200] : Colors.blueGrey[900],
