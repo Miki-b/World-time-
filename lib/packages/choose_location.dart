@@ -39,7 +39,7 @@ class _choose_locationState extends State<choose_location> {
       backgroundColor: Colors.grey[500],
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
-        title: Text('Choose Your Location',style: TextStyle(
+        title: Text('Choose Your Location ',style: TextStyle(
           color: Colors.white
         ),),
         centerTitle: true,
